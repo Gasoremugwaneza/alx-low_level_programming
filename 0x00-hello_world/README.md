@@ -1,1 +1,1 @@
-compile
+my first c programm
