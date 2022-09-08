@@ -1,5 +1,4 @@
-#!/bin/bash
-
+#!/bin/bash\n
 #include <stdio.h>
 
 /**
