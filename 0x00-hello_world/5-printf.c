@@ -2,8 +2,8 @@
 
 /**
 
- * this is printing using printf
- *and it is simple to use 
+  this is printing using printf
+* and it is simple to use 
  *\
  
 int main(void)
