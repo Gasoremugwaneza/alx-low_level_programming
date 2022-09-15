@@ -1,28 +1,41 @@
-#include "main.h"
+#include <stdio.h>                                                                                                                                       
+
+#include <stdlib.h>                                                                                                                                      
+
+#include <time.h>                                                                                                                                        
+
+/**                                                                                                                                                      
+*
+* * main - Entry point                                                                                                                                     
+*
+* * Return: Always 0 (Success)                                                                                                                             
+*
+* */                                                                                                                                                       
+
+int main(void)                                                                                                                                           
+
+{                                                                                                                                                        
+
+int n;                                                                                                                                                   
 
 
 
-/**
-*main - tests function that prints if integer is positive or negative
-*Return: 0
-*/
+srand(time(0));                                                                                                                                          
 
+n = rand() - RAND_MAX / 2;                                                                                                                               
 
+if (n > 0)                                                                                                                                               
 
-int main(void)
+printf("%d is positive\n", n);                                                                                                                           
 
-{
+else if (n == 0)                                                                                                                                         
 
-int i;
+printf("%d is zero\n", n);                                                                                                                               
 
+else                                                                                                                                                     
 
+printf("%d is negative\n", n);                                                                                                                           
 
-i = 98;
+return (0);                                                                                                                                              
 
-positive_or_negative(i);
-
-
-
-return (0);
-
-}
+} 
