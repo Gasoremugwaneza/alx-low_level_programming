@@ -5,14 +5,10 @@ nclude <string.h>
 
 
 /**
- *
- * * _strlen - prints the length of a string
- *
- * * @s: string variable
- *
- * * Return: length of the string
- *
- * */
+ *_strlen - prints the length of a string
+ *@s: string variable
+ *Return: length of the string
+ */
 
 int _strlen(char *s)
 
