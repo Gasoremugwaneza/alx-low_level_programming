@@ -1,22 +1,43 @@
-#include <stdio.h>
-#include <string.h>
-
-#include <unistd.h>
-
-
+#include "main.h"
 
 /**
- *_putchar - writes the character c to stdout
- *@c: The character to print
- *Return: On success 1.
- *On error, -1 is returned, and errno is set appropriately.
- */
-int main()
+*_strncat - Concatenates one string to another
+*@dest: Destination string
+*@src: String to be concatenated
+*@n: number of bytes to be copied
+*Return: The destination string
+*/
+
+char *_strncat(char *dest, char *src, int n)
+
 {
-	char dest[] = "Hello";
-	char src[] = "world";
-	strcat(desk,src);
-	printf("%d\n", desk);
-	return 0;
+
+int i;
+
+int destlen = 0;
+
+int counter = 0;
+
+
+
+while (dest[counter] != '\0')
+
+{
+
+destlen++;
+
+counter++;
+
 }
 
+for (i = 0; i < n && src[i] != '\0'; i++)
+
+dest[destlen + i] = src[i];
+
+dest[destlen + i] = '\0';
+
+
+
+return (dest);
+
+}
