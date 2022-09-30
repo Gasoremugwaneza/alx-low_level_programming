@@ -1,6 +1,6 @@
-#ifndef HOLBERTON_H
+#ifndef main.h
 
-#define HOLBERTON_H
+#define main.h
 
 
 
