@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 *main - prints a number, followed by a new line
 *@argv: array of pointers to strings    
