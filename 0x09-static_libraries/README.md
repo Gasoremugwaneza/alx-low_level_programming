@@ -1,1 +1,1 @@
-craeating a static library that containg a function
+creating a static lib
