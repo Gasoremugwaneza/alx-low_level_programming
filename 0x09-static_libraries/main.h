@@ -1,39 +1,45 @@
-0-isupper.o
+#ifndef HOLBERTON_H
 
-0-memset.o
+#define HOLBERTON_H
 
-0-strcat.o
+int _putchar(char c);
 
-1-isdigit.o
+int _islower(int c);
 
-1-memcpy.o
+int _isalpha(int c);
 
-1-strncat.o
+int _abs(int n);
 
-100-atoi.o
+int _isupper(int c);
 
-2-strchr.o
+int _isdigit(int c);
 
-2-strlen.o
+int _strlen(char *s);
 
-2-strncpy.o
+void _puts(char *s);
 
-3-islower.o
+char *_strcpy(char *dest, char *src);
 
-3-puts.o
+int _atoi(char *s);
 
-3-strcmp.o
+char *_strcat(char *dest, char *src);
 
-3-strspn.o
+char *_strncat(char *dest, char *src, int n);
 
-4-isalpha.o
+char *_strncpy(char *dest, char *src, int n);
 
-4-strpbrk.o
+int _strcmp(char *s1, char *s2);
 
-5-strstr.o
+char *_memset(char *s, char b, unsigned int n);
 
-6-abs.o
+char *_memcpy(char *dest, char *src, unsigned int n);
 
-9-strcpy.o
+char *_strchr(char *s, char c);
 
-_putchar.o
+unsigned int _strspn(char *s, char *accept);
+
+char *_strpbrk(char *s, char *accept);
+
+char *_strstr(char *haystack, char *needle);
+
+#endif /**HOLBERTON_H*/
