@@ -1,1 +1,3 @@
-string that compare two string
+### C Programming
+Readme file for *0x08-recursion* directory.  
+Highlight: Recursion
